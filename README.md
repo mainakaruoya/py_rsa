@@ -33,6 +33,7 @@ For now, at least, the program does not generate a `.pem` file that stores the p
 This is the CLI implementation of the cryptosystem, which calls `rsa_primes.py` to generate keys, and then with the user-supplied message, calls the relevant functionality from `py_rsa.py`.
 
 The command to use (all arguments are mandatory):
+
 `rsa_cli.py [-h] -m <message> -k <key size> -f <operation to carry out>`
 
 ~~~
