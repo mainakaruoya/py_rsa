@@ -52,7 +52,7 @@ options:
                         both. To achieve those operations, the user's choices are 'encrypt', 'sign', or 'both' respectively
 ~~~
 
-#### Other Useful Links
+### Other Useful Links
 The first two links are discussions on the _Cryptography StackExchange_ that proved to be very useful in discovering how to generate primes. The third is a link to FIPS 140-2 Implementation Guidance, which on p. 126 gives a formula for calculating the security strength of a given modulus bit length whose security strength is not pre-defined in NIST SP 800-57 part 1, Revision 5. 
 - [How can I generate large prime numbers for RSA?](https://crypto.stackexchange.com/questions/71/how-can-i-generate-large-prime-numbers-for-rsa)
 - [How are primes generated for RSA?](https://crypto.stackexchange.com/questions/1970/how-are-primes-generated-for-rsa)
