@@ -19,7 +19,7 @@ The plaintext, ciphertext, signature, and the decoded plaintext are color-coded 
 `pip install colorama`
 
 ### Usage
-#### `py_rsa.py`
+### `py_rsa.py`
 This is the file that implements the RSA encryption and signature schemes, as well as the primitives needed for those schemes. Since it is defined as a kind of module, you can import its functionality into your program. You can use `rsa_primes.py` script to generate the primes and create the keys to use. 
 
 ### `rsa_primes.py`
