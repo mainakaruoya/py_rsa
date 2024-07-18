@@ -24,7 +24,9 @@ This is the file that implements the RSA encryption and signature schemes, as we
 
 ### `rsa_primes.py`
 This generates the primes needed to create the public and private keys, as well as creating the public and private keys. Once the fundamental primes, `p` and `q`, are generated, the keys are packed into tuples that have the following structure: 
+
 Public key tuple: `(modulus, public_exponent)`
+
 Private key tuple: `(modulus, public_exponent, private_exponent, p, q)`
 
 For now, at least, the program does not generate a `.pem` file that stores the private key.
